@@ -1,0 +1,30 @@
+{
+  "include": [
+    "src",
+    "types"
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "rootDir": "./src",
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+  }
+}
