@@ -19,14 +19,14 @@ const vib3 = Vib3.init()
 vib3.withCameras( camera )
 ```
 
-### Add a mesh to the scene
-```typescript
-vib3.scene.add( mesh )
-```
-
 ### Run the animation loop
 ```typescript
 vib3.animate()
+```
+
+### Add a mesh to the scene
+```typescript
+vib3.scene.add( mesh )
 ```
 
 ### Add animations
@@ -36,6 +36,8 @@ vib3.addAnimation( (timeS, timeMS) => {
     mesh.rotation.y = timeS
 })
 ```
+
+![cube](https://user-images.githubusercontent.com/8824819/152457160-b0ddb2e3-42ed-4950-ae0b-4aa06f4f942d.gif)
 
 ### Add fog
 ```typescript
@@ -50,5 +52,9 @@ vib32
       .enableSplitView()
 ```
 
+![scissor](https://user-images.githubusercontent.com/8824819/152457241-bbdbaf7e-48d5-4a30-a142-a355a65c4eb7.gif)
+
+
 __TODOS__
--[ ] ...
+
+- [ ] ...
