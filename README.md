@@ -4,7 +4,7 @@
 
 ### Install VIB3
 ```
-npm install vib3`
+npm install vib3
 ```
 ### Initialize a renderer
 ```typescript
@@ -49,6 +49,3 @@ vib32
       .withCameraHelpers( new CameraHelper(camera) )
       .enableSplitView()
 ```
-
-__TODOS__
--[ ] ...

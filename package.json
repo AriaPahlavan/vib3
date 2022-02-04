@@ -1,5 +1,12 @@
 {
   "version": "0.1.0",
+  "name": "vib3",
+  "author": "Aria Pahlavan",
+  "description": "Just the good vibes of three.js without the boilerplate",
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/ariapahlavan/vib3#readme",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,7 +15,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -31,8 +38,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "vib3",
-  "author": "Aria Pahlavan",
   "module": "dist/vib3.esm.js",
   "size-limit": [
     {
@@ -55,5 +60,12 @@
   },
   "dependencies": {
     "three": "^0.137.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariapahlavan/vib3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ariapahlavan/vib3/issues"
   }
 }
