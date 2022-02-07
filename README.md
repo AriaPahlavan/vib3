@@ -46,7 +46,7 @@ vib3.enableFog(0xF2F8F7)
 
 ### Add scissor view for troubleshooting
 ```typescript
-vib32
+vib3
       .withCameras( camera )
       .withCameraHelpers( new CameraHelper(camera) )
       .enableSplitView()

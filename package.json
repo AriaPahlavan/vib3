@@ -67,5 +67,15 @@
   },
   "bugs": {
     "url": "https://github.com/ariapahlavan/vib3/issues"
-  }
+  },
+  "keywords": [
+    "three",
+    "threejs",
+    "typescript-library",
+    "javascript-library",
+    "javascript-library",
+    "vanilla-javascript",
+    "angular",
+    "react"
+  ]
 }
